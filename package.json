@@ -1,0 +1,14 @@
+{
+  "name": "@chqrd/iracing",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "prettier": "3.4.2",
+    "ts-node": "10.9.2"
+  }
+}
